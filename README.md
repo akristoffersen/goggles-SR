@@ -2,6 +2,15 @@
 
 Goggles is a Python tool for selfie/webcam super resolution that first detects where the faces are, then runs the ESRGAN face-specific SR model on those cropped busts.
 
+## Results
+
+![Low Resolution Image](13.jpg?raw=true "Low Resolution Image")
+
+
+
+Gogglified Image
+![High Resolution Image](13_face_sr.png?raw=true "High Resolution Image")
+
 ## Installation
 
 This uses the model from [Face-Super-Resolution](https://github.com/ewrfcas/Face-Super-Resolution), so you must follow all of their installation instructions
